@@ -28,13 +28,13 @@ The Kitchen Safety Heat and Gas Monitoring System is an embedded system develope
 ## 4. Block Diagram
 ![Block Diagram](block_diagram.jpg)
 
-## 4. Software Requirements
+## 5. Software Requirements
 
 * Embedded C
 * Keil µVision
 * Flash Magic
 
-## 5. Pin Configuration
+## 6. Pin Configuration
 
 The following assignments are based on the current project configuration and must be verified against the final source code and hardware wiring.
 
@@ -54,7 +54,7 @@ The following assignments are based on the current project configuration and mus
 
 The MQ-2 analog input, buzzer, and LED connections must be documented after checking the source code and actual circuit diagram.
 
-## 6. Working Principle
+## 7. Working Principle
 
 The LPC2148 reads the temperature and gas sensor signals and processes the readings. The LCD displays the sensor information along with the time and date provided by the RTC.
 
@@ -62,7 +62,7 @@ When the temperature exceeds the configured threshold or a hazardous gas conditi
 
 The project specification also includes safety event recording with timestamps and password-protected editing of settings.
 
-## 7. Project Features
+## 8. Project Features
 
 * Temperature monitoring
 * Gas leakage detection
@@ -75,15 +75,18 @@ The project specification also includes safety event recording with timestamps a
 
 *Only mark features as implemented after verifying them on the actual hardware.*
 
-## 8. Source Code
+## 9. Source Code
 
 This repository contains the Embedded C source files and supporting project files used to develop the system.
 
-## 9. Circuit Diagram and Documentation
+## 10. Circuit Diagram and Documentation
 
 Refer to the circuit diagram and supporting sensor datasheets included in this repository for hardware connection details and sensor specifications.
 
-## 10. Testing and Results
+## 11. Testing and Results
+## Result 
+![Result](r1.jpeg)
+![Result](r2.jpeg)
 
 Test the project on the LPC2148 development board to verify:
 
@@ -97,14 +100,14 @@ Test the project on the LPC2148 development board to verify:
 
 Add actual hardware photographs and test results after testing.
 
-## 11. Applications
+## 12. Applications
 
 * Kitchen safety monitoring
 * Gas leakage alert systems
 * Temperature monitoring
 * Embedded safety and alarm applications
 
-## 12. Author
+## 13. Author
 
 **Burra Nagaraju**
 

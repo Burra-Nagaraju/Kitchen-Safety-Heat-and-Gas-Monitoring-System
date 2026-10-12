@@ -26,7 +26,7 @@ The Kitchen Safety Heat and Gas Monitoring System is an embedded system develope
 * USB-UART converter or DB-9 cable
 
 ## 4. Block Diagram
-![BlockDiagram]()
+![BlockDiagram](block_diagram_jpg.jpg)
 
 ## 5. Software Requirements
 

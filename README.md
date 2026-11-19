@@ -1,7 +1,20 @@
 # Kitchen-Safety-Heat-and-Gas-Monitoring-System
 ## 1. Project Overview
 
-The Kitchen Safety Heat and Gas Monitoring System is an embedded system developed using the LPC2148 ARM7 microcontroller. It monitors temperature and combustible gas levels using an LM35 temperature sensor and an MQ-2 gas sensor. The system is designed to detect hazardous conditions, provide alerts, display real-time information, and record safety events with RTC timestamps.
+The Kitchen Safety Heat and Gas Monitoring System is an embedded system developed using the LPC2148 ARM7 microcontroller.  
+The primary objective of this project is to improve kitchen safety by continuously monitoring temperature and combustible gas levels.  
+The system uses an LM35 temperature sensor to measure the surrounding temperature.  
+An MQ-2 gas sensor is used to detect LPG and other combustible gases in the environment.  
+The LPC2148 microcontroller processes the sensor readings and identifies potentially hazardous conditions.  
+An LCD is interfaced with the microcontroller to display real-time temperature, gas status, and system information.  
+An RTC (Real-Time Clock) module is used to maintain accurate date and time information.  
+Whenever the temperature or gas concentration exceeds the predefined threshold, the system generates an alert through a buzzer.  
+The system provides immediate warnings to help users identify dangerous situations and take necessary precautions.  
+It also records abnormal safety events along with their corresponding RTC timestamps for future reference.  
+A keypad-based interface is implemented to provide user interaction and system configuration options.  
+Password protection is incorporated to restrict unauthorized access to important system settings.  
+The system allows users to modify temperature and gas threshold values according to their requirements.  
+Overall, this project provides a reliable and cost-effective embedded solution for monitoring kitchen safety and detecting potential fire and gas leakage hazards.
 
 ## 2. Objectives
 
